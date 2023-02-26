@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 *{
     margin: 0;
@@ -7,29 +8,37 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    /* color:rgb(112, 97, 44); */
+    color:rgb(107, 98, 51);
 }
-header h1  {
+/*             heading             */
+
+h1  {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/371/480/846/pipes-brass-gears-steampunk-wallpaper-preview.jpg");
+    
+    /* color: rgb(223, 193, 119); */
+    color: rgb(228, 212, 172);
     font-family: 'Six Caps', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 5px;
     text-align: center;
 }
 
- a {
-    text-decoration: none;
-    color: darkgoldenrod;
+a {
+   text-decoration: none;
+   color: rgb(25, 28, 5);
 }
-
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     list-style: none;
+    font-family: 'Metal Mania', cursive;
+    background-color:rgb(222, 173, 108);
+    font-size: 20px;
+    /* margin: auto 20rem; */
+    /* opacity: .9; */
+    line-height: 25px;
 }
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-nav a:hover{
-  text-shadow: 0 0 1px, 0 0 5px darkgoldenrod;
+nav li a:hover{
+  text-shadow: 0 0 1px, 0 0 1px darkgoldenrod;
 }
