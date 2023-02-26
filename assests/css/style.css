@@ -11,10 +11,10 @@ body{
     /* color:rgb(112, 97, 44); */
     color:rgb(107, 98, 51);
 }
-/*             heading             */
+/**********heading and navbar************/
 
 h1  {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/371/480/846/pipes-brass-gears-steampunk-wallpaper-preview.jpg");
+    background-image:url(/assests/images/header-image.jpg);
     
     /* color: rgb(223, 193, 119); */
     color: rgb(228, 212, 172);
@@ -28,6 +28,7 @@ a {
    text-decoration: none;
    color: rgb(25, 28, 5);
 }
+
 nav ul {
     display: flex;
     justify-content:space-evenly;
@@ -41,4 +42,10 @@ nav ul {
 }
 nav li a:hover{
   text-shadow: 0 0 1px, 0 0 1px darkgoldenrod;
+}
+
+/**********Hero Image************/
+#hero-image {
+    height: 600px;
+    background: url("/assests/images/hero-image5.jpg") no-repeat center center ;
 }
