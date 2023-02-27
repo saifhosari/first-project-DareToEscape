@@ -8,20 +8,18 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    /* color:rgb(112, 97, 44); */
     color:rgb(107, 98, 51);
 }
 /**********heading and navbar************/
 
 h1  {
     background-image:url(/assests/images/header-image.jpg);
-    
-    /* color: rgb(223, 193, 119); */
     color: rgb(228, 212, 172);
     font-family: 'Six Caps', sans-serif;
     font-size: 60px;
     letter-spacing: 5px;
     text-align: center;
+    text-shadow: 0 0 1px, 0 0 2px darkgoldenrod;
 }
 
 a {
@@ -36,16 +34,78 @@ nav ul {
     font-family: 'Metal Mania', cursive;
     background-color:rgb(222, 173, 108);
     font-size: 20px;
-    /* margin: auto 20rem; */
-    /* opacity: .9; */
-    line-height: 25px;
+  
 }
 nav li a:hover{
   text-shadow: 0 0 1px, 0 0 1px darkgoldenrod;
 }
 
 /**********Hero Image************/
-#hero-image {
+#hero-outer{
+    background-color: rgb(29, 25, 11);
     height: 600px;
-    background: url("/assests/images/hero-image5.jpg") no-repeat center center ;
+    width: 100%;
+    overflow: hidden;
 }
+#hero-image {
+    position: relative;
+    height: 600px;
+    width: 100%; 
+    background: url("/assests/images/hero-lion.jpg") no-repeat center center / contain  ;
+    
+    /* animated zoom effect on landing page*/
+    animation: hero-zoom 5s forwards ;
+    
+}
+
+
+
+/********** creats the level of zoom for hero image *********/
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+to {
+        transform: scale(1.1);
+    }
+} 
+
+
+.eye {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(65, 51, 25);
+    border: 4px solid black;
+    border-radius: 100% 0;
+  transform: rotate(45deg); 
+  margin-left: 7.9%;
+  margin-top: 10%;
+}
+.eye2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(65, 51, 25);
+    border: 4px solid black;
+    border-radius: 100% 0;
+  transform: rotate(45deg); 
+  margin-left: 83.8%;
+  margin-top: 10%;
+}
+
+.eye > .eye-ball ,
+.eye2 > .eye-ball2 {
+    position: absolute;
+    color: transparent;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border: 3px solid rgb(95, 72, 13);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
