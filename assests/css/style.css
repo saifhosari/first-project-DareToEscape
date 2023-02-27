@@ -8,11 +8,11 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(107, 98, 51);
+    color: rgb(14, 11, 4);
 }
 /**********heading and navbar************/
 
-h1  {
+#heading  {
     background-image:url(/assests/images/header-image.jpg);
     color: rgb(228, 212, 172);
     font-family: 'Six Caps', sans-serif;
@@ -35,32 +35,70 @@ nav ul {
     line-height: 30px;
     font-family: 'Metal Mania', cursive;
     background-color:rgb(222, 173, 108);
-    font-size: 20px;
+    font-size: 23px;
     box-shadow: 0 5px 15px darkgoldenrod,
     inset 0 0 15px black,
     inset 0 0 35px rgb(17, 15, 2),
     inset 0 0 60px rgb(139, 79, 0),
-    inset 0 0 20px rgb(37, 3, 3)
-
-    ;
+    inset 0 0 20px rgb(37, 3, 3);
 }
 nav li a:hover{
     color: black;
     text-shadow: 0 0 5px, 0 0 5px darkgoldenrod;
 }
 
-/**********Hero Image************/
+/**********Hero Image and Cover Text************/
 #hero-outer{
-    background-color: rgb(29, 25, 11);
+    /* background-color: rgb(17, 14, 4); */
+    background-color: rgb(12, 11, 7);
+    background-image: url("/assests/images/fancy-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
+
+#cover-text, #cover-text h2 {
+    /* color: rgb(24, 18, 3); */
+    color: rgb(228, 212, 172);
+}
+
+#cover-text{
+    font-size: 180%;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 2px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 30px;
+    left: 900px;
+}
+
+#cover-text2{
+    font-size: 180%;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    color: rgb(228, 212, 172);
+    position: absolute;
+    bottom: 20px;
+    right: 900px;
+}
+
 #hero-image {
     position: relative;
     height: 600px;
     width: 100%; 
     background: url("/assests/images/hero-lion.jpg") no-repeat center center / contain  ;
+    box-shadow: 0 5px 15px darkgoldenrod,
+    inset 0 0 15px black,
+    inset 0 0 35px rgb(17, 15, 2),
+    inset 0 0 60px rgb(139, 79, 0),
+    inset 0 0 20px rgb(37, 3, 3);
+
     /* animated zoom effect on landing page*/
     animation: hero-zoom 5s forwards ;
 }
@@ -77,6 +115,9 @@ to {
         transform: scale(1.1);
     }
 } 
+
+
+
 
 /********** create eyes around the the hero image and let them move and blink *********/
 .eye {
@@ -120,7 +161,7 @@ to {
     animation-name: eyeBlink;
     animation-duration: .45s;
     animation-delay: 1.55s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
 }
 @keyframes eyeBlink {
     0%   {
