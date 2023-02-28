@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
 
 *{
     margin: 0;
@@ -18,7 +19,7 @@ body{
     font-family: 'Six Caps', sans-serif;
     font-weight: 550;
     font-size: 70px;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
     text-align: center;
     text-shadow: 0 0 1px, 0 0 2px darkgoldenrod;
 }
@@ -81,8 +82,8 @@ nav li a:hover{
 }
 
 #cover-text{
-    font-size: 180%;
-    font-family: 'Metal Mania', cursive;
+    font-family: 'Milonga', cursive;
+    font-size: 155%;   
     letter-spacing: 1px;
     width: 300px;
     height: 200px;
@@ -92,14 +93,14 @@ nav li a:hover{
 }
 
 #cover-text2{
-    font-size: 180%;
-    font-family: 'Metal Mania', cursive;
-    letter-spacing: 4px;
+    font-family: 'Milonga', cursive;
+    font-size: 145%;    
+    letter-spacing: 25px;
     width: 300px;
     height: 200px;
     color: rgb(228, 212, 172);
     position: absolute;
-    bottom: 20px;
+    bottom: 180px;
     right: 900px;
 }
 
@@ -181,10 +182,13 @@ to {
   }
 
 
-/********** club ethos *********/
+/**************** club ethos ***************/
 
 #club-ethos {
     height: 600px;
+    background: url("../images/fancy-hero2.jpg") no-repeat center center / cover;
+    color: rgb(228, 212, 172);
+    font-family: 'Milonga', cursive;
 }
 
 #abouts{
@@ -236,7 +240,7 @@ hr{
     font-weight: 550;
     letter-spacing: 7px;
     text-align: center;
-    margin: 20px 0;
+    margin: 3px;
     font-size: 300%;
     text-shadow: 0 0 1px, 0 0 2px darkgoldenrod;
 }
