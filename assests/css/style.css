@@ -12,8 +12,8 @@ body{
 }
 /**********heading and navbar************/
 
-#heading  {
-    background-image:url(/assests/images/header-image.jpg);
+#logo  {
+    background-image:url("/assests/images/header-image.jpg");
     color: rgb(228, 212, 172);
     font-family: 'Six Caps', sans-serif;
     font-weight: 550;
@@ -60,6 +60,21 @@ nav li a:hover{
     position: relative;
 }
 
+#hero-image {
+    position: relative;
+    height: 600px;
+    width: 100%; 
+    background: url("/assests/images/hero-lion.jpg") no-repeat center center / contain  ;
+    box-shadow: 0 5px 15px darkgoldenrod,
+    inset 0 0 15px black,
+    inset 0 0 45px rgb(2, 46, 48),
+    inset 0 0 40px rgb(139, 79, 0),
+    inset 0 0 50px rgb(37, 3, 3);
+
+    /* animated zoom effect on landing page*/
+    animation: hero-zoom 5s forwards ;
+}
+
 #cover-text, #cover-text h2 {
     /* color: rgb(24, 18, 3); */
     color: rgb(228, 212, 172);
@@ -68,7 +83,7 @@ nav li a:hover{
 #cover-text{
     font-size: 180%;
     font-family: 'Metal Mania', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     width: 300px;
     height: 200px;
     position: absolute;
@@ -86,21 +101,6 @@ nav li a:hover{
     position: absolute;
     bottom: 20px;
     right: 900px;
-}
-
-#hero-image {
-    position: relative;
-    height: 600px;
-    width: 100%; 
-    background: url("/assests/images/hero-lion.jpg") no-repeat center center / contain  ;
-    box-shadow: 0 5px 15px darkgoldenrod,
-    inset 0 0 15px black,
-    inset 0 0 35px rgb(17, 15, 2),
-    inset 0 0 60px rgb(139, 79, 0),
-    inset 0 0 20px rgb(37, 3, 3);
-
-    /* animated zoom effect on landing page*/
-    animation: hero-zoom 5s forwards ;
 }
 
 
@@ -179,3 +179,33 @@ to {
       height: 60px;
     }
   }
+
+/********** club ethos *********/
+
+#club-ethos {
+    height: 600px;
+}
+
+#club-ethos > h1{
+    text-align: center;
+} 
+#abouts{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    background-color: blue;
+}
+#right-about{
+    background-color: silver;
+    padding-top: 30px;
+    width: 33%;
+}
+#center-about{
+    background-color: green;
+    margin: 0 auto;
+    width: 33%;
+}
