@@ -231,9 +231,14 @@ hr{
 }
 
 #welcome {
+    color: rgb(110, 97, 64);
+    font-family: 'Six Caps', sans-serif;
+    font-weight: 550;
+    letter-spacing: 7px;
     text-align: center;
     margin: 20px 0;
-    font-size: 280%;
+    font-size: 300%;
+    text-shadow: 0 0 1px, 0 0 2px darkgoldenrod;
 }
 
 #circle-container{
