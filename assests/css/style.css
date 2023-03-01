@@ -29,7 +29,7 @@ a {
     color: rgb(228, 212, 172);
 }
 
-nav ul {
+.nav-list {
     display: flex;
     justify-content:space-evenly;
     list-style: none;
@@ -37,10 +37,10 @@ nav ul {
     font-family: 'Metal Mania', cursive;
     background-color:rgb(222, 173, 108);
     font-size: 23px;
-    box-shadow: 0 5px 15px darkgoldenrod,
+    box-shadow: 0 0 5px darkgoldenrod,
     inset 0 0 15px black,
     inset 0 0 35px rgb(17, 15, 2),
-    inset 0 0 60px rgb(139, 79, 0),
+    inset 0 0 20px rgb(139, 79, 0),
     inset 0 0 20px rgb(37, 3, 3);
 }
 nav li a:hover{
@@ -293,3 +293,31 @@ line-height: 40px;
 font-family: 'Milonga', cursive;
 }
 
+/**************** footer ***************/
+
+footer {
+    height: 70px;
+}
+
+.social-networks{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+    top: 30%;
+}
+.socila-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(58, 49, 8);
+}
+
+.social-networks i:hover{
+    transform: scale(1.5);
+}
