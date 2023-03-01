@@ -95,7 +95,7 @@ nav li a:hover{
 #cover-text2{
     font-family: 'Milonga', cursive;
     font-size: 145%;    
-    letter-spacing: 25px;
+    letter-spacing: 24px;
     width: 300px;
     height: 200px;
     color: rgb(228, 212, 172);
@@ -293,31 +293,88 @@ line-height: 40px;
 font-family: 'Milonga', cursive;
 }
 
-/**************** footer ***************/
+/**************** footer and icons ***************/
 
 footer {
     height: 70px;
-}
-
-.social-networks{
-    text-align: center;
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+}
+
+
+ footer {
+    background: url("../images/fancy-hero2.jpg") no-repeat center center / cover;
+    height: auto;
+    padding-top: 10px;
+ }
+  
+  .hexagon-wrapper {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+  }
+  
+  .hexagon {
     position: relative;
-    top: 30%;
+    width: 46%;
+    height: 80%;
+    margin: auto;
+    color: white;
+    background: linear-gradient(-180deg, #e9c26d , #291e03 );
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: 0.5s;
+  }
+  
+  .hexagon a {
+    z-index: 1;
+    margin: auto;
+    font-size: 50px;
+    color: transparent;
+    background: linear-gradient(45deg, #e7635f, rgb(0, 0, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    position: absolute;
+    content: "";
+    background: inherit;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  .hexagon:before {
+    transform: rotateZ(60deg);
+  }
+  .hexagon:after {
+    transform: rotateZ(-60deg);
+  }
+  .hexagon:hover {
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  .hexagon:hover:before {
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  .hexagon:hover:after {
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  
+.fa-twitter {
+    color: #105570;
 }
-.socila-networks > li {
-    display: inline;
+.fa-facebook-f{
+    color: #3b5998;
 }
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: rgb(58, 49, 8);
-}
-
-.social-networks i:hover{
-    transform: scale(1.5);
+.fa-youtube{
+    color: 	#8d1a1a;
 }
