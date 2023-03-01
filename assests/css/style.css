@@ -163,6 +163,7 @@ to {
     animation-duration: .45s;
     animation-delay: 1.55s;
     animation-iteration-count: 2;
+    
 }
 @keyframes eyeBlink {
     0%   {
@@ -221,8 +222,8 @@ hr{
 .left-about-heading,
 .right-about-heading{
     width: 60%;
-    line-height: 20px;
     margin-bottom: 50px;
+    font-size: 113%;
 }
 
 .right-about-heading h2 {
@@ -241,7 +242,7 @@ hr{
     letter-spacing: 7px;
     text-align: center;
     margin: 3px;
-    font-size: 300%;
+    font-size: 320%;
     text-shadow: 0 0 1px, 0 0 2px darkgoldenrod;
 }
 
@@ -290,5 +291,5 @@ border: 2px solid white ;
 box-sizing: border-box;
 line-height: 40px;
 font-family: 'Milonga', cursive;
-
 }
+
