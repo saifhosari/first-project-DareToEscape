@@ -5,12 +5,13 @@
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
-    gap: 2px;
-    background: url("../images/fancy-hero2.jpg") no-repeat center center / cover;
+    gap: 20px;
+    background: url("../images/fancy-hero5.jpg") no-repeat center center / cover;
+    cursor: pointer;
 }
 .thumb {
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
     margin: 70px auto;
     perspective: 1000px;
 }
@@ -151,5 +152,3 @@
     box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
     transform: rotateX(0) translateZ(-60px) scale(0.85);
 }
-
-
