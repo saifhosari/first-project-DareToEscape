@@ -6,7 +6,8 @@
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     gap: 20px;
-    background: url("../images/fancy-hero5.jpg") no-repeat center center / cover;
+    /* background: url("../images/fancy-hero5.jpg") no-repeat center center / cover; */
+    background-color: black;
     cursor: pointer;
 }
 .thumb {
@@ -104,6 +105,8 @@
 .thumb:hover div {
     transform: rotateX(80deg);
     transform-origin: bottom;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    box-shadow: inset 6px 6px 6px rgb(171, 146, 85), inset -6px -6px 6px rgb(158, 127, 48);
 }
 .thumb div:after {
     content: '';
