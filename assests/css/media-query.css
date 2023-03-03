@@ -42,12 +42,6 @@
         font-size: 14.5px;
     }
 }
-/* @media (max-width:1355px) {
-    .left-about-heading p,
-    .right-about-heading p{
-        font-size: 17px;
-    }
-} */
 
 @media (max-width:1390px) {
     .left-about-heading h2,
@@ -197,7 +191,23 @@
         font-size: 8px;
     }
 }
-/*********** media queries (max-width:375px) *************/
+@media (max-width:375px) {
+    .covers-container{
+        left: -42px;
+    }
+    #times div{
+        margin-right: 20px;
+    }
+}
+@media (max-width:353px) {
+   #welcome{
+    font-size: 30px;
+   }
+    #times div{
+        margin-right: 20px;
+    }
+}
+/*********** media queries (max-width:600px) *************/
 
 @media (max-width:600px) {
     .eye {
@@ -290,4 +300,17 @@
         display: grid;
         grid-template-columns: auto ;
     }
+}
+
+/*********** media queries Form *************/
+@media (max-width:553px) {    
+    .container { 
+        position: relative;
+        width: 310px;
+      }
+}@media (max-width:727px) {    
+    .container { 
+        position: relative;
+        width: 310px;
+      }
 }
