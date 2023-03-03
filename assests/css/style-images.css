@@ -106,7 +106,7 @@
     transform: rotateX(80deg);
     transform-origin: bottom;
     box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
-    box-shadow: inset 6px 6px 6px rgb(171, 146, 85), inset -6px -6px 6px rgb(158, 127, 48);
+    /* box-shadow: inset 6px 6px 6px rgb(171, 146, 85), inset -6px -6px 6px rgb(158, 127, 48); */
 }
 .thumb div:after {
     content: '';

@@ -1,4 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
 
+input {
+  caret-color: red;
+}
+
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgb(17, 15, 2), rgb(69, 55, 24), rgb(114, 87, 11));
+  box-shadow: 14px 14px 20px #92753f, -14px -14px 20px rgb(139, 126, 82);
+}
+
+.brand-logo {
+  height: 100px;
+  width: 100px;
+  background: url("../images/eye-horus.jpg") no-repeat center center /cover;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: rgb(228, 212, 172);
+  letter-spacing: 1px;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label, input, button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button {
+  color: white;
+  margin-top: 20px;
+  background: rgb(228, 212, 172);
+  background-image: linear-gradient(rgb(17, 15, 2), rgb(69, 55, 24), rgb(114, 87, 11));
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: none;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+}
+
+
+
+/* 
     legend {
     color: rgb(150, 12, 12);
     font-size: 20px;
@@ -11,18 +105,22 @@
     font-family: "Sofia", sans-serif;
     }
     .form007 {
-    opacity: 0.9;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 3%;
-    background-color: white;
+        width: 650px;
+        height: 770px;
+        border-radius: 20px;
+        padding: 40px;
+        box-sizing: border-box;
+        background: #ecf0f3;
+        box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
     background-image: linear-gradient(rgb(17, 15, 2), rgb(69, 55, 24), rgb(114, 87, 11));
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
     }
     textarea {
     width: 100%;
+    height: 70px;
     }
     .co {
     width: 100%;
@@ -34,17 +132,15 @@
     border-radius: 5px;
     }
 
-    .gn {
-    display: inline;
-    width: 50%;
+    .gender {
+        display: flex;
+        color: rgb(228, 212, 172);
     }
-    .gn input {
-    display: inline-block;
-    width: 40px;
+    .gender input {
+        
+    width: 20px;
     }
-    .male0 {
-    margin-left: 7px;
-    }
+    
 
     .sub,
     .rst {
@@ -53,7 +149,6 @@
     font-family: "lobster", cursive;
     font-size: 20px;
     width: 16%;
-    display: inline-block;
     border: 1px rgb(104, 77, 8) solid;
     height: 30px;
     background-color: black;
@@ -61,5 +156,5 @@
     }
     .sub:hover,
     .rst:hover {
-    background-color: rgb(104, 77, 8);
-    }
+    background-color: rgb(223, 215, 195);
+    } */
