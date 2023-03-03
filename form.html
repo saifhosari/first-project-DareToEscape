@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assests/css/media-query.css">
     <title>Document</title>
 </head>
-<body style="background-color: black;">
+  
+  <body style="background-color: black;" >
     <header>
         <a href="index.html">
             <h1 id="logo">Dare To Escape</h1>
@@ -24,18 +25,37 @@
         </nav>
     </header>
 
-    <div class="container">
+    <form action="https://formdump.codeinstitute.net/" method="POST" class="container">
         <div class="brand-logo"></div>
         <div class="brand-title">Personal</div>
         <div class="inputs">
-          <label>EMAIL</label>
-          <input type="email" placeholder="example@test.com" />
-          <label>PASSWORD</label>
-          <input type="password" placeholder="Min 6 charaters long" />
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="First name here.." required>
+            <label for="last name">Last name</label>
+            <input
+            type="text"
+            name="last name"
+            id="last name"
+            placeholder="Last name here.."
+            required/>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Min 6 charaters long" />
+            <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="example@test.com" />
+          <label for="age">Age</label>
+            <input
+            type="age"
+            name="age"
+            id="age"
+            min="18"
+            max="70"
+            placeholder="Must be over 18 "
+            required
+            />
+            
           <button type="submit">LOGIN</button>
-        </div>
-       
-      </div>
+        </div>      
+      </form>
     <!-- <div class="form">
         <form action="https://formdump.codeinstitute.net/" method="POST" class="form007">
         <fieldset>

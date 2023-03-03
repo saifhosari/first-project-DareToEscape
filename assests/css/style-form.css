@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 
 input {
   caret-color: red;
 }
 
-
-.container {
+.container { 
   position: relative;
-  width: 350px;
-  height: 500px;
+  width: 750px;
+  height: 760px;
   top: 20px;
   left: 50%;
   transform: translate(-50%);
@@ -16,7 +17,9 @@ input {
   padding: 40px;
   box-sizing: border-box;
   background-image: linear-gradient(rgb(17, 15, 2), rgb(69, 55, 24), rgb(114, 87, 11));
-  box-shadow: 14px 14px 20px #92753f, -14px -14px 20px rgb(139, 126, 82);
+  box-shadow: 14px 14px 20px #ccb58b, -14px -14px 20px rgb(206, 195, 160);
+  font-family: 'Milonga', cursive;
+
 }
 
 .brand-logo {
@@ -26,26 +29,28 @@ input {
   margin: auto;
   border-radius: 50%;
   box-sizing: border-box;
-  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  box-shadow: 1px 1px 1px #cbced1, -1px -1px 10px white;
 }
 
 .brand-title {
-  margin-top: 10px;
+  text-align: center;
   font-weight: 900;
   font-size: 1.8rem;
   color: rgb(228, 212, 172);
   letter-spacing: 1px;
+  font-family: 'Metal Mania', cursive;
 }
 
 .inputs {
-  text-align: left;
   margin-top: 30px;
 }
 
 label, input, button {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 0;
+  padding: 5px;
   border: none;
   outline: none;
   box-sizing: border-box;
@@ -53,11 +58,12 @@ label, input, button {
 
 label {
   margin-bottom: 4px;
-}
-
-label:nth-of-type(2) {
   margin-top: 12px;
 }
+
+/* label:nth-of-type(2) {
+  margin-top: 12px;
+} */
 
 input::placeholder {
   color: gray;
@@ -74,20 +80,22 @@ input {
 }
 
 button {
-  color: white;
+  color: rgb(228, 212, 172);
   margin-top: 20px;
   background: rgb(228, 212, 172);
   background-image: linear-gradient(rgb(17, 15, 2), rgb(69, 55, 24), rgb(114, 87, 11));
+  box-shadow: inset 6px 6px 6px  rgb(17, 13, 13), inset -6px -6px 6px #b4aa6d;
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 900;
   transition: 0.5s;
+  font-family: 'Milonga', cursive;
 }
 
 button:hover {
   box-shadow: none;
-  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  box-shadow: 6px 6px 6px #2c2711, -6px -6px 6px rgb(255, 255, 255);
 }
 
 
