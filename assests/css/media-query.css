@@ -169,10 +169,10 @@
     }
     #cover-text2{       
         font-size: 19px;
-        margin-left: 70px; 
+        margin-left: 70px;
     }
 }
-@media (max-width:620px) {
+@media (max-width:610px) {
     .covers-container{
         left: 6px;
     }
@@ -205,6 +205,26 @@
    }
     #times div{
         margin-right: 20px;
+    }
+}
+@media (max-width:320px) {
+    .thumb{
+        width: 240px;
+        height: 150px;
+    }
+}
+@media (max-width:540px) {
+    .thumb{
+        width: 290px;
+        height: 190px;
+    }
+}
+@media (max-width:520px) {
+    #cover-text2{
+        margin-right: 20px;
+    }
+    #cover-text{
+        margin-right: 10px;
     }
 }
 /*********** media queries (max-width:600px) *************/
