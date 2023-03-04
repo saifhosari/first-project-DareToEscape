@@ -68,7 +68,7 @@ ONLY THE ELITE CAN ESCAPE HELL CHAMBERS!
 
 # Testing 
 
-i have done enough testing that i assure users there will be no erors in the website .
+i have done enough testing that i assure users there will be no errors in the website .
 
 * Validator Testing
 
@@ -79,7 +79,7 @@ i have done enough testing that i assure users there will be no erors in the web
 # Deployment
 
  * The site was deployed to GitHub pages <br/>
- The live link can be found here -
+ The live link can be found here - https://saifhosari.github.io/first-project-mission/
 
 # Content 
 
