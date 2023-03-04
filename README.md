@@ -68,13 +68,21 @@ ONLY THE ELITE CAN ESCAPE HELL CHAMBERS!
 
 # Testing 
 
-i have done enough testing that i assure users there will be no errors in the website .
+i have done enough testing that i assure users there will be no errors in the website.
+
+ * I confirm that the page is fully responsive in all screen sizes.
+ * i confirm that the navigation, header, sign up and footer are all readable and easy to understand.
+ * i confirm that the form works: require entries in every field, will only accept an email in the email field, and the submit button works. 
 
 * Validator Testing
 
   * HTML
     - No errors were returned when passing through the official [W3C validator]("https://validator.w3.org/nu/")
     - No errors were found when passing through the official [(Jigsaw) validator]("https://www.w3.org/")
+
+# Unfixed Bugs 
+
+No unfixed bugs
 
 # Deployment
 
