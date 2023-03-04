@@ -46,6 +46,47 @@ ONLY THE ELITE CAN ESCAPE HELL CHAMBERS!
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - the footer got some eyes taking animation that moves them in hexagon shape.
     <br/> <br/>
 
   ![The Footer](/assests/images/the-footer.png)
+
+* Gallery
+
+  - The gallery will provide the user with supporting images to see what the escape rooms look like.
+  - This section is valuable to the user as they will be able to easily identify the types of Games they will go through.
+   <br/> <br/>
+
+  ![Gallery](/assests/images/gallery.png)
+
+* The Sign Up Page
+
+  - This page will allow the user to get signed up to Dare To Escape to start their adventure journey with the community. The user will be able specify if they would like to take part in the games, The user will be asked to submit their full name and email address and password and age must be over 18.
+   <br/> <br/>
+
+  ![The Sign Up Page](/assests/images/sign-up-page.png)
+
+# Testing 
+
+i have done enough testing that i assure users there will be no erors in the website .
+
+* Validator Testing
+
+  * HTML
+    - No errors were returned when passing through the official [W3C validator]("https://validator.w3.org/nu/")
+    - No errors were found when passing through the official [(Jigsaw) validator]("https://www.w3.org/")
+
+# Deployment
+
+ * The site was deployed to GitHub pages <br/>
+ The live link can be found here -
+
+# Content 
+
+  * The text fonts for the whole page was taken from [Google Fonts]("https://fonts.google.com/")
+  * The icons in the footer were taken from [Font Awesome]("https://fontawesome.com/")
+
+# Media 
+
+  * The photos used on the home and sign up page are from This Open Source site [Google]("https://www.google.com/")
+  * The images used for the gallery page were taken from this other open source site [Google]("https://www.google.com/")
