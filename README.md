@@ -47,6 +47,7 @@ ONLY THE ELITE CAN ESCAPE HELL CHAMBERS!
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media.
   - the footer got some eyes taking animation that moves them in hexagon shape.
+  - i give credits to https://freefrontend.com/css-hexagons/ because i learned how to make the hexagon shape animation from them.
     <br/> <br/>
 
   ![The Footer](/assests/images/the-footer.png)
@@ -55,6 +56,7 @@ ONLY THE ELITE CAN ESCAPE HELL CHAMBERS!
 
   - The gallery will provide the user with supporting images to see what the escape rooms look like.
   - This section is valuable to the user as they will be able to easily identify the types of Games they will go through.
+  - i give credits to https://freefrontend.com/css-image-effects/ because i learned how to make the gallery animation from them.
    <br/> <br/>
 
   ![Gallery](/assests/images/gallery.png)
